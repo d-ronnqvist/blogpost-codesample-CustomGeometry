@@ -1,5 +1,5 @@
 //
-//  AppDelegate.m
+//  CustomGeometryView.h
 //  CustomGeometry
 //
 //  Created by David Rönnqvist on 6/3/13.
@@ -23,13 +23,9 @@
 
 
 
-#import "AppDelegate.h"
+#import <Cocoa/Cocoa.h>
+#import <SceneKit/SceneKit.h>
 
-@implementation AppDelegate
-
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
-}
+@interface CustomGeometryView : SCNView
 
 @end

@@ -13,6 +13,9 @@
 		6F195850175C7C430025FEBB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6F19584E175C7C430025FEBB /* Credits.rtf */; };
 		6F195853175C7C430025FEBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F195852175C7C430025FEBB /* AppDelegate.m */; };
 		6F195856175C7C430025FEBB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F195854175C7C430025FEBB /* MainMenu.xib */; };
+		6F19585D175C7C520025FEBB /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F19585C175C7C520025FEBB /* SceneKit.framework */; };
+		6F195860175C7CB50025FEBB /* CustomGeometryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F19585F175C7CB50025FEBB /* CustomGeometryView.m */; };
+		6F195862175C880D0025FEBB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F195861175C880D0025FEBB /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,10 @@
 		6F195851175C7C430025FEBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F195852175C7C430025FEBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6F195855175C7C430025FEBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6F19585C175C7C520025FEBB /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		6F19585E175C7CB50025FEBB /* CustomGeometryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGeometryView.h; sourceTree = "<group>"; };
+		6F19585F175C7CB50025FEBB /* CustomGeometryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGeometryView.m; sourceTree = "<group>"; };
+		6F195861175C880D0025FEBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F195862175C880D0025FEBB /* QuartzCore.framework in Frameworks */,
+				6F19585D175C7C520025FEBB /* SceneKit.framework in Frameworks */,
 				6F195840175C7C430025FEBB /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +72,8 @@
 		6F19583E175C7C430025FEBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6F195861175C880D0025FEBB /* QuartzCore.framework */,
+				6F19585C175C7C520025FEBB /* SceneKit.framework */,
 				6F19583F175C7C430025FEBB /* Cocoa.framework */,
 				6F195841175C7C430025FEBB /* Other Frameworks */,
 			);
@@ -84,6 +95,8 @@
 			children = (
 				6F195851175C7C430025FEBB /* AppDelegate.h */,
 				6F195852175C7C430025FEBB /* AppDelegate.m */,
+				6F19585E175C7CB50025FEBB /* CustomGeometryView.h */,
+				6F19585F175C7CB50025FEBB /* CustomGeometryView.m */,
 				6F195854175C7C430025FEBB /* MainMenu.xib */,
 				6F195846175C7C430025FEBB /* Supporting Files */,
 			);
@@ -168,6 +181,7 @@
 			files = (
 				6F19584C175C7C430025FEBB /* main.m in Sources */,
 				6F195853175C7C430025FEBB /* AppDelegate.m in Sources */,
+				6F195860175C7CB50025FEBB /* CustomGeometryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
