@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F195840175C7C430025FEBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F19583F175C7C430025FEBB /* Cocoa.framework */; };
+		6F19584A175C7C430025FEBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F195848175C7C430025FEBB /* InfoPlist.strings */; };
+		6F19584C175C7C430025FEBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F19584B175C7C430025FEBB /* main.m */; };
+		6F195850175C7C430025FEBB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6F19584E175C7C430025FEBB /* Credits.rtf */; };
+		6F195853175C7C430025FEBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F195852175C7C430025FEBB /* AppDelegate.m */; };
+		6F195856175C7C430025FEBB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F195854175C7C430025FEBB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F19583C175C7C430025FEBB /* CustomGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F19583F175C7C430025FEBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6F195842175C7C430025FEBB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6F195843175C7C430025FEBB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6F195844175C7C430025FEBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F195847175C7C430025FEBB /* CustomGeometry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomGeometry-Info.plist"; sourceTree = "<group>"; };
+		6F195849175C7C430025FEBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F19584B175C7C430025FEBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F19584D175C7C430025FEBB /* CustomGeometry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomGeometry-Prefix.pch"; sourceTree = "<group>"; };
+		6F19584F175C7C430025FEBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6F195851175C7C430025FEBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F195852175C7C430025FEBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F195855175C7C430025FEBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F195839175C7C430025FEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F195840175C7C430025FEBB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F195833175C7C430025FEBB = {
+			isa = PBXGroup;
+			children = (
+				6F195845175C7C430025FEBB /* CustomGeometry */,
+				6F19583E175C7C430025FEBB /* Frameworks */,
+				6F19583D175C7C430025FEBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F19583D175C7C430025FEBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F19583C175C7C430025FEBB /* CustomGeometry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F19583E175C7C430025FEBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F19583F175C7C430025FEBB /* Cocoa.framework */,
+				6F195841175C7C430025FEBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F195841175C7C430025FEBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F195842175C7C430025FEBB /* AppKit.framework */,
+				6F195843175C7C430025FEBB /* CoreData.framework */,
+				6F195844175C7C430025FEBB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6F195845175C7C430025FEBB /* CustomGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				6F195851175C7C430025FEBB /* AppDelegate.h */,
+				6F195852175C7C430025FEBB /* AppDelegate.m */,
+				6F195854175C7C430025FEBB /* MainMenu.xib */,
+				6F195846175C7C430025FEBB /* Supporting Files */,
+			);
+			path = CustomGeometry;
+			sourceTree = "<group>";
+		};
+		6F195846175C7C430025FEBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F195847175C7C430025FEBB /* CustomGeometry-Info.plist */,
+				6F195848175C7C430025FEBB /* InfoPlist.strings */,
+				6F19584B175C7C430025FEBB /* main.m */,
+				6F19584D175C7C430025FEBB /* CustomGeometry-Prefix.pch */,
+				6F19584E175C7C430025FEBB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F19583B175C7C430025FEBB /* CustomGeometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F195859175C7C430025FEBB /* Build configuration list for PBXNativeTarget "CustomGeometry" */;
+			buildPhases = (
+				6F195838175C7C430025FEBB /* Sources */,
+				6F195839175C7C430025FEBB /* Frameworks */,
+				6F19583A175C7C430025FEBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomGeometry;
+			productName = CustomGeometry;
+			productReference = 6F19583C175C7C430025FEBB /* CustomGeometry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F195834175C7C430025FEBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "David Rönnqvist";
+			};
+			buildConfigurationList = 6F195837175C7C430025FEBB /* Build configuration list for PBXProject "CustomGeometry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F195833175C7C430025FEBB;
+			productRefGroup = 6F19583D175C7C430025FEBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F19583B175C7C430025FEBB /* CustomGeometry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F19583A175C7C430025FEBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F19584A175C7C430025FEBB /* InfoPlist.strings in Resources */,
+				6F195850175C7C430025FEBB /* Credits.rtf in Resources */,
+				6F195856175C7C430025FEBB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F195838175C7C430025FEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F19584C175C7C430025FEBB /* main.m in Sources */,
+				6F195853175C7C430025FEBB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F195848175C7C430025FEBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F195849175C7C430025FEBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F19584E175C7C430025FEBB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F19584F175C7C430025FEBB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6F195854175C7C430025FEBB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F195855175C7C430025FEBB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F195857175C7C430025FEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6F195858175C7C430025FEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6F19585A175C7C430025FEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomGeometry/CustomGeometry-Prefix.pch";
+				INFOPLIST_FILE = "CustomGeometry/CustomGeometry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F19585B175C7C430025FEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomGeometry/CustomGeometry-Prefix.pch";
+				INFOPLIST_FILE = "CustomGeometry/CustomGeometry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F195837175C7C430025FEBB /* Build configuration list for PBXProject "CustomGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F195857175C7C430025FEBB /* Debug */,
+				6F195858175C7C430025FEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F195859175C7C430025FEBB /* Build configuration list for PBXNativeTarget "CustomGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F19585A175C7C430025FEBB /* Debug */,
+				6F19585B175C7C430025FEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F195834175C7C430025FEBB /* Project object */;
+}
